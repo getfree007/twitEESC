@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>  
+        <meta charset="UTF-8">
+        <title>Pesquisar</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/stylePesquisar.css">
+	<link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap" rel="stylesheet">
+    </head>
+    
+	<body>
+            <header>
+                <h1  class="titulo-principal">Pesquisa</h1>
+                <img class="eescquilo"; src="imagens/eescquilo.png">
+                <img class="menu" ; src ="imagens/menu.png">
+                <img class="Bpesquisa" ; src ="imagens/Bpesquisa.png">
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li id="bFeed" class="nav-item" ><a href="#" title="Feed">Feed</a></li>
+                        <li id = "bPerfil" class="nav-item"><a href="#" title="Perfil">Perfil</a></li>
+                        <li id="bLogout" class="nav-item"><a href="#" title="Logout">Logout</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <form class="pesquisar-divisao">
+                    <label for="pesquisar-usuario">Pesquisar Usuário:</label>
+                    <input class="inputpesquisa" type="search" name="pesquisarU" id="pesquisar-usuario" placeholder="Digite o Nome do Usuario" list="historico">
+                    <datalist id ="historico"></datalist>
+                </form>
+                <ul >
+                    <li class="listas">lucas</li>
+                    <li class="listas">matheus</li>
+                    <li class="listas">dias</li>
+                    <li class="listas">ferreira</li>
+                    <li class="listas">luca</li>
+
+                </ul>
+            </main>
+        <script src="/javaScript/pesquisar.js"></script>
+        <script src="/javaScript/filtrar.js"></script>
+        <script src="javaScript/menu.js"></script>
+	</body>
+</html>

@@ -1,0 +1,132 @@
+header
+{
+    background: #191970;
+    background-size: 100%;
+    background-position: 100%;
+    height: 140px;
+}
+body
+{
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.menu
+{
+    max-width:50px;
+    max-height:50px;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top : 10px;
+    left: 10px;
+    cursor:pointer;
+}
+.Bpesquisa
+{
+    max-width:40x;
+    max-height:40px;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top : 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.fotoPerfil
+{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left : 40px;
+    top : 70px;
+    border:3px solid #000000;
+    
+}
+.nomePerfil
+{
+    color:#000000;
+    font-size: 30px;
+    position : relative;
+    left: 40px;
+    top: 90px;
+    font-weight: bold;
+}
+.nomeUnder
+{
+    color:#BBBBBB;
+    font-size: 20px;
+    position : relative;
+    left: 40px;
+    top: 90px;
+    font-style: italic;
+}
+.fotoFollow
+{
+    max-width:70x;
+    max-height:70px;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top : 150px;
+    right: 50px;
+}
+.descriçao
+{
+    position: absolute;
+    top : 290px;
+    left: 40px;
+    font-size: 20px;
+    font-weight: 500;   
+}
+
+.textoTweet
+{
+    position: absolute;
+    top : 350px;
+    left: 40px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.nav {
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: center;
+    width: 30%;
+}
+    .nav-list {
+        display: none;
+    }
+        .nav-item {
+            display:  inline;
+            float : left;
+        }
+            .nav-item a {
+                display: block;
+                padding:  15px 20px;
+                text-decoration: none;
+                color: #FFFFFF;
+                background:#191970;
+            }
+
+                .nav-item a:hover {
+                    background: rgb(19, 19, 100);  
+                }
+
+    .nav-active {
+        display: block !important;
+        position: relative;
+        top: 5px;
+        left: 60px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
